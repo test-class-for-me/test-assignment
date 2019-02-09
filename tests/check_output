@@ -1,0 +1,14 @@
+#!/bin/bash
+
+output="$(python hello_world.py)"
+echo "== OUTPUT =="
+echo $output
+echo "== END OUTPUT =="
+echo
+
+if [ "$output" = "Hello World!" ] ; then
+  echo "Good job!"
+  exit 0
+else
+  echo "Keep trying"
+fi
