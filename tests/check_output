@@ -1,6 +1,8 @@
 #!/bin/bash
 
 output="$(python hello_world.py)"
+echo "== EXPECTED OUTPUT =="
+echo "Hello World!"
 echo "== OUTPUT =="
 echo $output
 echo "== END OUTPUT =="
