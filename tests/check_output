@@ -11,4 +11,5 @@ if [ "$output" = "Hello World!" ] ; then
   exit 0
 else
   echo "Keep trying"
+  exit 1
 fi
